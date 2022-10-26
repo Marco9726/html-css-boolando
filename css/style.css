@@ -32,6 +32,10 @@ ul li{
     display: inline-block;
 }
 
+.margin-right{
+    padding-left: 0;
+}
+
 .margin-right li{
     margin-right: 5px;
 }
@@ -56,10 +60,6 @@ header{
 header .container{
     /* position: fixed; */
     
-}
-
-.top .row .col-left ul{
-    padding-left: 0;
 }
 
 .top .row .col-center .logo img{
@@ -169,6 +169,16 @@ main .container .row .col .info .brand{
 footer{
     height: 80px;
     background-color: black;
+    color: white;
+    padding-top: 20px;
+}
+
+footer .bottom a{
+    font-size: 14px;
+}
+
+.bottom .col-right{
+    text-align: right;
 }
 
 
