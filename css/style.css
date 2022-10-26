@@ -39,6 +39,10 @@ ul li{
 .margin-left li{
     margin-left: 5px;
 }
+
+span::after{
+    content: '\20AC';
+}
 /* HEADER  */
 header{
     height: 60px;
@@ -81,6 +85,22 @@ main .container .row .col .card{
 
 main .container .row .col .info{
     height: 10%;
+}
+
+main .container .row .col .info .brand{
+    color: gray;
+}
+
+.brand,.price{
+    font-size: 14px;
+}
+
+.discount{
+    color: red;
+}
+
+.original{
+    text-decoration: line-through;
 }
 
 #Image1{
