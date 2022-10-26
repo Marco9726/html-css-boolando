@@ -72,7 +72,6 @@ main .container .row{
 }
 main .container .row .col{
     width: calc(100% / 3 - 20px);
-    background-color: aquamarine;
     height: 500px;
 }
 
@@ -140,9 +139,29 @@ main .container .row .col .info .brand{
     right: 0;
     top: 10px;
 }
-
+/* IMMAGINI  */
 #Image1{
     background-image: url('../img/1.webp');
+}
+
+#Image2{
+    background-image: url('../img/2.webp');
+}
+
+#Image3{
+    background-image: url('../img/3.webp');
+}
+
+#Image4{
+    background-image: url('../img/4.webp');
+}
+
+#Image5{
+    background-image: url('../img/5.webp');
+}
+
+#Image6{
+    background-image: url('../img/6.webp');
 }
 
 /* FOOTER  */
