@@ -54,7 +54,7 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
-    margin-bottom: 50px
+    margin-bottom: 50px;
 }
 
 header .container{
@@ -146,10 +146,13 @@ main .container .row .col .info .brand{
 
 #Image2{
     background-image: url('../img/2.webp');
+    background-size: 95%;
+    background-position: 80% 0%;
 }
 
 #Image3{
     background-image: url('../img/3.webp');
+    background-size: 100%;
 }
 
 #Image4{
@@ -162,6 +165,31 @@ main .container .row .col .info .brand{
 
 #Image6{
     background-image: url('../img/6.webp');
+}
+/* IMMAGINI HOVER  */
+
+#Image1:hover{
+    background-image: url('../img/1b.webp');
+}
+
+#Image2:hover{
+    background-image: url('../img/2b.webp');
+}
+
+#Image3:hover{
+    background-image: url('../img/3b.webp');
+}
+
+#Image4:hover{
+    background-image: url('../img/4b.webp');
+}
+
+#Image5:hover{
+    background-image: url('../img/5b.webp');
+}
+
+#Image6:hover{
+    background-image: url('../img/6b.webp');
 }
 
 /* FOOTER  */
