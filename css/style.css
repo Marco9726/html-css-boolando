@@ -40,7 +40,7 @@ ul li{
     margin-left: 5px;
 }
 
-span::after{
+.price span::after{
     content: '\20AC';
 }
 /* HEADER  */
@@ -81,8 +81,9 @@ main .container .row .col .card{
     height: 90%;
     background-size: contain;
     background-position: center;
+    position: relative;
 }
-
+/* INFO  */
 main .container .row .col .info{
     height: 10%;
 }
@@ -91,7 +92,7 @@ main .container .row .col .info .brand{
     color: gray;
 }
 
-.brand,.price{
+.brand,.price,.about > span{
     font-size: 14px;
 }
 
@@ -101,6 +102,43 @@ main .container .row .col .info .brand{
 
 .original{
     text-decoration: line-through;
+}
+/* AGGIUNTE SOPRA IMMAGINE  */
+.about{
+    position: absolute;
+    bottom: 50px;
+}
+.about > span{
+    color: white;
+    padding: 5px;
+}
+.about .percentage::after{
+    content: '\0025';
+}
+
+.about .sost::after{
+    content: '\00E0'
+}
+
+.about .percentage{
+    background-color: red;
+}
+
+.about .sost{
+    background-color: green;
+}
+
+.heart{
+    position: absolute;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    top: 10px;
 }
 
 #Image1{
