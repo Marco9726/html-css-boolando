@@ -28,7 +28,6 @@ ul a{
     color: white;
 }
 
-
 ul li{
     display: inline-block;
 }
@@ -45,9 +44,14 @@ header{
     height: 60px;
     background-color: orange;
     width: 100%;
-    position: fixed;
     display: flex;
     align-items: center;
+    margin-bottom: 50px
+}
+
+header .container{
+    /* position: fixed; */
+    
 }
 
 .top .row .col-left ul{
@@ -56,6 +60,28 @@ header{
 
 .top .row .col-center .logo img{
     height: 40px;
+}
+/* MAIN  */
+
+main .container .row{
+    margin-bottom: 30px;
+}
+main .container .row .col{
+    width: calc(100% / 3 - 20px);
+    background-color: aquamarine;
+    height: 300px;
+}
+
+main .container .row .col .info{
+    background-color: brown;
+    height: 30px;
+}
+
+/* FOOTER  */
+
+footer{
+    height: 80px;
+    background-color: black;
 }
 
 
