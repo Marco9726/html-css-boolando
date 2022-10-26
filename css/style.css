@@ -69,12 +69,22 @@ main .container .row{
 main .container .row .col{
     width: calc(100% / 3 - 20px);
     background-color: aquamarine;
-    height: 300px;
+    height: 500px;
+}
+
+main .container .row .col .card{
+    width: 100%;
+    height: 90%;
+    background-size: contain;
+    background-position: center;
 }
 
 main .container .row .col .info{
-    background-color: brown;
-    height: 30px;
+    height: 10%;
+}
+
+#Image1{
+    background-image: url('../img/1.webp');
 }
 
 /* FOOTER  */
