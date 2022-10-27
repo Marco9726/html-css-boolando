@@ -3,6 +3,7 @@
     border: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Arial';
 }
 
 .debug{
@@ -81,11 +82,9 @@ main .container .row .col .card{
     background-size: contain;
     background-position: center;
     position: relative;
+    cursor: pointer;
 }
 /* INFO  */
-main .container .row .col .info{
-    height: 10%;
-}
 
 main .container .row .col .info .brand{
     color: gray;
