@@ -79,10 +79,11 @@ main .container .row .col{
 main .container .row .col .card{
     width: 100%;
     height: 90%;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     position: relative;
     cursor: pointer;
+    background-repeat: no-repeat;
 }
 /* INFO  */
 
@@ -164,6 +165,7 @@ main .container .row .col .info .brand{
 
 #Image5{
     background-image: url('../img/5.webp');
+    background-position: top;
 }
 
 #Image6{
